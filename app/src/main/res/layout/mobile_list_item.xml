@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    tools:context=".CatalogActivity">
+
+    <ImageView
+        android:id="@+id/mobile_image"
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_width"
+        android:src="@drawable/no_data"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="@dimen/image_width"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_default">
+
+        <TextView
+            android:id="@+id/model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Book Title" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Price: 20€" />
+
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Remaining: 3" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_sale"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/image_width"
+        android:text="@string/buy_button_text"
+        android:textColor="@color/colorAccent" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <!-- These are the options displayed in the gender drop-down Spinner -->
+    <string-array name="array_type_options">
+        <item>@string/type_unknown</item>
+        <item>@string/type_android</item>
+    </string-array>
+</resources>

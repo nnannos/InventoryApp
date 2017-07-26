@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Mobile Inventory App</string>
+    <string name="empty_view_title_text">No Data in the database!</string>
+    <string name="empty_view_subtitle_text">Please add some by pressing the button with the mobile or from the menu, insert the default(dummy) mobiles in the database</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="editor_activity_model_new_mobile">Add a mobile</string>
+    <string name="editor_activity_model_edit_mobile">Edit mobile</string>
+    <string name="mobile_model">Mobile Model</string>
+
+    <string name="delete_button">Delete the mobile</string>
+    <!-- Label for type information in the editor [CHAR LIMIT=30] -->
+    <string name="category_type">type</string>
+    <!-- Label for dropdown menu option if the mobiles's type is unknown [CHAR LIMIT=20] -->
+    <string name="type_unknown">Unknown</string>
+
+    <!-- Label for dropdown menu option if the mobile is Android [CHAR LIMIT=20] -->
+    <string name="type_android">Android</string>
+
+    <string name="action_save">save</string>
+    <string name="action_delete">delete</string>
+
+
+    <!-- Toast message in editor when new mobile has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_mobile_successful">Mobile saved</string>
+
+    <!-- Toast message in editor when new mobile has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_mobile_failed">Error with saving mobile</string>
+
+    <!-- Toast message in editor when current mobile was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_mobile_successful">Mobile updated</string>
+
+    <!-- Toast message in editor when current mobile has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_mobile_failed">Error with updating mobile</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current mobile [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current mobile was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_mobile_successful">Mobile deleted</string>
+
+    <!-- Toast message in editor when current mobile has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_mobile_failed">Error with deleting mobile</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current mobile [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this mobile?</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current mobile [CHAR LIMIT=NONE] -->
+    <string name="delete_all_dialog_msg">Are you sure you want to delete everything?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current mobile [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current mobile [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <string name="mobile_model_hint">Mobile Model</string>
+
+    <string name="price_hint">price in euro</string>
+    <string name="supplier_hint">Supplier</string>
+    <string name="action_insert_data">Insert default products</string>
+    <string name="action_delete_all_entries">Delete All</string>
+    <string name="negative_quantity_error">The quantity is already zero.</string>
+    <string name="no_model_error">Can\'t save as every mobile needs a model!</string>
+    <string name="no_price_error">Can\'t save as every mobile needs a valid price!</string>
+    <string name="no_email_error">Can\'t save as every mobile needs a supplier\'s email to be able to order more!</string>
+    <string name="no_image_error">Can\'t save as every mobile needs an image</string>
+    <string name="telephone_hint">+0044 0000 000000</string>
+    <string name="email_hint">supplier@address.com</string>
+    <string name="order_now">Order now!</string>
+    <string name="empty_data_image">Empty data image</string>
+    <string name="euro_symbol">€</string>
+    <string name="zero_price">0</string>
+    <string name="price_title">Price:</string>
+    <string name="available">Available:</string>
+    <string name="no_image_photo">No image photo</string>
+    <string name="email_image_desc">email image</string>
+    <string name="telephone_image_decc">telephone image</string>
+    <string name="buy_button_text">Buy</string>
+
+</resources>
+
