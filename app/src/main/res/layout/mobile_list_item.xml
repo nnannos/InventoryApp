@@ -11,7 +11,7 @@
         android:id="@+id/mobile_image"
         android:layout_width="@dimen/image_width"
         android:layout_height="@dimen/image_width"
-        android:src="@drawable/no_data"/>
+        android:src="@drawable/no_image"/>
 
     <LinearLayout
         android:layout_width="0dp"
@@ -25,7 +25,7 @@
             android:id="@+id/model"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="Book Title" />
+            tools:text="Mobile model" />
 
         <TextView
             android:id="@+id/price"

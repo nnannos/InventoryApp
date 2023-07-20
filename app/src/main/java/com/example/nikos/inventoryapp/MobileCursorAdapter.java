@@ -117,11 +117,11 @@ public class MobileCursorAdapter extends CursorAdapter {
             ContentValues values = new ContentValues();
             values.put(MobileEntry.COLUMN_MOBILE_QUANTITY, quantity);
             mContext.getContentResolver().update(uri, values, null, null);
-        }
-        else {
+        } else {
             Toast.makeText(view.getContext(), "This mobile is out of stock", Toast.LENGTH_SHORT).show();
         }
     }
+
     static class ViewHolder {
         @BindView(R.id.model)
         TextView mModelTextView;

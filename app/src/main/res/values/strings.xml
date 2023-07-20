@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Mobile Inventory App</string>
+    <string name="app_name">Mobile Store Inventory App</string>
     <string name="empty_view_title_text">No Data in the database!</string>
-    <string name="empty_view_subtitle_text">Please add some by pressing the button with the mobile or from the menu, insert the default(dummy) mobiles in the database</string>
+    <string name="empty_view_subtitle_text">Please add some mobiles in the database by pressing the button with the mobile icon menu, Or insert 5 default(dummy) mobiles from settings menu, in the database for testing</string>
     <string name="minus">-</string>
     <string name="plus">+</string>
     <string name="editor_activity_model_new_mobile">Add a mobile</string>
@@ -10,7 +10,7 @@
 
     <string name="delete_button">Delete the mobile</string>
     <!-- Label for type information in the editor [CHAR LIMIT=30] -->
-    <string name="category_type">type</string>
+    <string name="category_type">Type</string>
     <!-- Label for dropdown menu option if the mobiles's type is unknown [CHAR LIMIT=20] -->
     <string name="type_unknown">Unknown</string>
 

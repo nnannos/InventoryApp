@@ -35,7 +35,8 @@
             android:name=".data.MobileProvider"
             android:authorities="com.example.nikos.inventoryapp"
             android:exported="false"
-            android:grantUriPermissions="true"/>
+            android:grantUriPermissions="true"
+            />
     </application>
 
 </manifest>
